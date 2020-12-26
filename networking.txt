@@ -1,0 +1,4 @@
+#number of conections
+netstat -anp | grep etcd
+#Netstat which program listen on which port
+netstat -nplt
